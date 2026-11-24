@@ -15,10 +15,11 @@ Plataforma de catálogo e gerenciamento de livros containerizada com Docker, pub
 
 ## Entregáveis & Links
 
-- **Docker Hub (Backend):** *(será preenchido após publicação)*
-- **Docker Hub (Frontend):** *(será preenchido após publicação)*
-- **API Backend (Render):** *(será preenchido após deploy)*
-- **Frontend (Render):** *(será preenchido após deploy)*
+- **Docker Hub (Backend):** https://hub.docker.com/r/vinicius93l/lendomais-backend
+- **Docker Hub (Frontend):** https://hub.docker.com/r/vinicius93l/lendomais-frontend
+- **URL pública do Frontend (Render):** https://lendomais-frontend-fv8v.onrender.com
+- **URL base da API Backend (Render):** https://lendomais-backend-latest-30o2.onrender.com
+- **Repositório GitHub:** https://github.com/vlacerda93/operacao-nuvem-literaria
 
 ---
 
