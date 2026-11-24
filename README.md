@@ -19,6 +19,7 @@ Plataforma de catálogo e gerenciamento de livros containerizada com Docker, pub
 - **Docker Hub (Frontend):** https://hub.docker.com/r/vinicius93l/lendomais-frontend
 - **URL pública do Frontend (Render):** https://lendomais-frontend-fv8v.onrender.com
 - **URL base da API Backend (Render):** https://lendomais-backend-latest-30o2.onrender.com
+- **Endpoint de Livros (API):** https://lendomais-backend-latest-30o2.onrender.com/api/books
 - **Repositório GitHub:** https://github.com/vlacerda93/operacao-nuvem-literaria
 
 ---
@@ -33,10 +34,10 @@ O principal desafio técnico do deploy em nuvem foi fazer o Frontend em React (V
 
 ```bash
 # Build local das imagens
-docker build -t SEU_USUARIO/lendomais-backend:latest ./backend
-docker build -t SEU_USUARIO/lendomais-frontend:latest ./frontend
+docker build -t vinicius93l/lendomais-backend:latest ./backend
+docker build -t vinicius93l/lendomais-frontend:latest ./frontend
 
 # Publicação no Docker Hub
-docker push SEU_USUARIO/lendomais-backend:latest
-docker push SEU_USUARIO/lendomais-frontend:latest
+docker push vinicius93l/lendomais-backend:latest
+docker push vinicius93l/lendomais-frontend:latest
 ```
